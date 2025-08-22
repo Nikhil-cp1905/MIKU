@@ -28,7 +28,7 @@ type Action =
   | { type: "CLEAR_PARTICIPANTS" };
 
 const initialState: State = {
-  quizStatus: "inactive",
+  quizStatus: "active",
   participants: [],
   currentUser: null,
   currentQuiz: null,
