@@ -26,10 +26,10 @@ export function Header() {
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <Button variant="outline" size="sm" asChild>
-            <Link href="/admin">
+            {/*<Link href="/admin">
               <LayoutDashboard className="mr-2 h-4 w-4" />
               Admin
-            </Link>
+            </Link>*/}
           </Button>
           <ThemeToggle />
         </div>
